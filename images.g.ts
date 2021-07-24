@@ -3,25 +3,6 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "gnW*DwCdbI09TMI|wx$A":
-            case "adamSprite":return img`
-. . . . . . . . . . . . . . 
-. . . . . f f f f . . . . . 
-. . . f f 5 5 5 5 f f . . . 
-. . f 5 5 5 5 5 5 5 5 f . . 
-. f 5 5 5 5 5 5 5 5 5 5 f . 
-c b 5 5 5 d b b d 5 5 5 b c 
-f 5 5 5 b 4 4 4 4 b 5 5 5 f 
-f 5 5 c c 4 4 4 4 c c 5 5 f 
-f b b f b f 4 4 f b f b b f 
-f b b e 1 f d d f 1 e b b f 
-c f b 4 4 d d d d d f b f c 
-. c d d d 4 9 9 9 6 c e c . 
-. c 4 d d 4 9 9 9 9 c 4 e . 
-. . c e e b b b 3 b b c e . 
-. . c c 3 b 3 b 3 3 c c . . 
-. . . . c c c b b c . . . . 
-`;
             case "eC;}RY;1ItosOAQ?C8pZ":
             case "SpaceBackground":return img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -302,6 +283,44 @@ f886666666666666666666666666688f
 ......ffffffffcbeeefffffff......
 ...............cebf.............
 ................ff..............
+`;
+            case "gnW*DwCdbI09TMI|wx$A":
+            case "adamSprite":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f f . . . . . 
+. . . f f e e e e f 2 f . . . . 
+. . f f e e e e f 2 2 2 f . . . 
+. . f e e e f f e e e e f . . . 
+. . f f f f e e 2 2 2 2 e f . . 
+. . f e 2 2 2 f f f f e 2 f . . 
+. f f f f f f f e e e f f f . . 
+. f f e 4 4 e b f 4 4 e e f . . 
+. f e e 4 d 4 1 f d d e f . . . 
+. . f e e e e e d d d f . . . . 
+. . . . f 4 d d e 4 e f . . . . 
+. . . . f e d d e 2 2 f . . . . 
+. . . f f f e e f 5 5 f f . . . 
+. . . f f f f f f f f f f . . . 
+. . . . f f . . . f f f . . . . 
+`;
+            case "uhm}n/HhL[s}o-J3|R^U":
+            case "bat":return img`
+. . f f f . . . . . . . . f f f 
+. f f c c . . . . . . f c b b c 
+f f c c . . . . . . f c b b c . 
+f c f c . . . . . . f b c c c . 
+f f f c c . c c . f c b b c c . 
+f f c 3 c c 3 c c f b c b b c . 
+f f b 3 b c 3 b c f b c c b c . 
+. c 1 b b b 1 b c b b c c c . . 
+. c 1 b b b 1 b b c c c c . . . 
+c b b b b b b b b b c c . . . . 
+c b 1 f f 1 c b b b b f . . . . 
+f f 1 f f 1 f b b b b f c . . . 
+f f 2 2 2 2 f b b b b f c c . . 
+. f 2 2 2 2 b b b b c f . . . . 
+. . f b b b b b b c f . . . . . 
+. . . f f f f f f f . . . . . . 
 `;
         }
         return null;
